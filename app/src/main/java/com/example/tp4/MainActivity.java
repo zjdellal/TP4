@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                         if(u.getEmail().equals(txtEmail.getText().toString())&& u.getPassword().equals(txtPassword.getText().toString())){
                             exist = true;
                             Toast.makeText (getApplicationContext (), "Connecté !"  , Toast.LENGTH_SHORT) .show ();
+                            // continuer ici pour lancer lactivité qui menu
                             break;
                         }
                     }
